@@ -11,7 +11,6 @@ PhD Candidate @ Tohoku University
 ---
 
 ## Research Focus
-
 - Efficient AI
 - Model Compression
 - LLM Systems
@@ -21,7 +20,6 @@ PhD Candidate @ Tohoku University
 ---
 
 ## Featured Projects
-
 ### LLM Efficiency Lab
 Research experiments on improving the efficiency of large language models.
 
@@ -53,7 +51,6 @@ Components:
 ---
 
 ## Research Philosophy
-
 I believe future AI systems should not only scale in size,  
 but also improve **efficiency, scalability, and deployability**.
 
@@ -63,7 +60,6 @@ and designing practical AI systems for real-world deployment.
 ---
 
 ## Tech Stack
-
 Deep Learning  
 PyTorch • Transformers • HuggingFace
 
@@ -79,8 +75,10 @@ Chinese • Japanese • English
 ---
 
 ## Current Interests
-
 - Efficient LLM systems
 - Token compression
 - AI system architecture
 - scalable AI pipelines
+
+## GitHub Stats
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true)
