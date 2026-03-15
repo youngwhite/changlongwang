@@ -1,70 +1,86 @@
-# LLM Efficiency Lab
+<h1 align="center">Changlong Wang</h1>
 
+<p align="center">
+AI Researcher • Efficient AI • LLM Systems
+</p>
+
+<p align="center">
+PhD Candidate @ Tohoku University
+</p>
+
+---
+
+## Research Focus
+
+- Efficient AI
+- Model Compression
+- LLM Systems
+- Context / Token Compression
+- Edge AI
+
+---
+
+## Featured Projects
+
+### LLM Efficiency Lab
 Research experiments on improving the efficiency of large language models.
 
-This repository explores ideas for reducing the computational cost of LLM inference while maintaining model performance.
+Key directions:
+- token importance estimation
+- context compression
+- efficient inference
 
 ---
 
-## Research Topics
+### AI Research Notes
+A collection of ideas and research explorations about efficient AI systems.
 
-- Token importance estimation
-- Context compression
-- Efficient inference pipelines
-- Long-context optimization
-
----
-
-## Motivation
-
-Modern large language models rely on extremely long contexts and heavy computation.
-
-This project explores:
-
-- how to identify redundant tokens
-- how to compress contexts efficiently
-- how to design better token importance estimators
+Topics include:
+- LLM compression
+- efficient transformers
+- AI system design
 
 ---
 
-## Experiment Directions
+### RAG System Playground
+Experimental RAG architecture for grounded LLM responses.
 
-### Token Importance Estimation
-
-Learning models to predict which tokens are most important for downstream tasks.
-
-Possible approaches:
-
-- small transformer predictors
-- gradient-based importance
-- attention-based importance
+Components:
+- FAISS retrieval
+- reranking
+- citation grounding
 
 ---
 
-### Context Compression
+## Research Philosophy
 
-Exploring alternatives to heuristic token deletion.
+I believe future AI systems should not only scale in size,  
+but also improve **efficiency, scalability, and deployability**.
 
-Ideas include:
-
-- learned token selectors
-- semantic importance estimation
-- adaptive compression models
+My work focuses on understanding redundancy in deep models  
+and designing practical AI systems for real-world deployment.
 
 ---
 
-### Evaluation
+## Tech Stack
 
-Evaluation metrics include:
+Deep Learning  
+PyTorch • Transformers • HuggingFace
 
-- compression ratio
-- downstream task performance
-- inference latency
+LLM Systems  
+vLLM • RAG • FAISS
+
+Infrastructure  
+CUDA • Docker • Linux
+
+Languages  
+Chinese • Japanese • English
 
 ---
 
-## Future Work
+## Current Interests
 
-- train token importance predictors
-- benchmark compression methods
-- test across multiple LLM families
+- Efficient LLM systems
+- Token compression
+- AI system architecture
+- scalable AI pipelines
